@@ -12,6 +12,7 @@ export default function Home() {
   };
 
   const searchAdvice = (value) => {
+
     const found = guidance.find(
       (g) => g.job.toLowerCase() === value.trim().toLowerCase()
     );
